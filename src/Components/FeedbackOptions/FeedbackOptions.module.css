@@ -1,0 +1,21 @@
+.btnList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnItem {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.button {
+  width: 60px;
+  height: 25px;
+  padding: 5px;
+  align-items: center;
+  color: mediumblue;
+  background-color: gainsboro;
+  border: 2px solid rgb(5, 5, 51);
+  border-radius: 5px;
+}

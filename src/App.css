@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  background-color: #ccc;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+  padding: 0px;
+}
+.p {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
