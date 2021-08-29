@@ -13,8 +13,9 @@ class Feedback extends Component {
   };
 
   handleButtonClick = event => {
+    const value = event.target.textContent;
     this.setState(prevState => ({
-      [event]: prevState[event] + 1,
+      [value]: prevState[value] + 1,
     }));
   };
 
